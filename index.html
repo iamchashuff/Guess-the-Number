@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number!</title>
+    </head>
+    <body onload="displayBestScore()">
+
+      <div class="container">
+<h1>Guess the Number!</h1>
+<p>Guess a number between 1 and 100</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Question_mark_white.png">
+<br>
+<input type="number" id="guess">
+<button onclick="checkGuess()">Submit</button>
+<button onclick="reset()">Restart</button>
+<p id="best-score">Best Score: N/A</p>
+
+<p id="feedback"></p>
+        </div>
+        <script src="script.js"></script>
+      </body>
+</html>
